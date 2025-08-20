@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "NOVA~8VQU3S5Y#v5IarS-61TB2S8krtl9dq_y9tnbpWNccSIbHZB531Ws",
 // add your Session Id 
 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
@@ -15,7 +15,7 @@ AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true or false for auto react on status
 
 ANTI_CALL: process.env.ANTI_CALL || "true",
@@ -30,7 +30,7 @@ ANTI_DELETE: process.env.ANTI_DELETE || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat     
 
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -42,16 +42,16 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/52dotx.jpg",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://qu.ax/VFmjR.jpg",
 // add custom menu and mention reply image url
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 
-BOT_NAME: process.env.BOT_NAME || "NOVA-XMD",
+BOT_NAME: process.env.BOT_NAME || "JAVA-XMD",
 // add bot namw here for menu
 
-STICKER_NAME: process.env.STICKER_NAME || "NOVA-XMD",
+STICKER_NAME: process.env.STICKER_NAME || "JAVA-XMD",
 // type sticker pack name 
 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -60,19 +60,20 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "255767862457",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "256745944178",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "NOVA-TECH",
+OWNER_NAME: process.env.OWNER_NAME || "JAYDEN JAVA",
 // add bot owner name
 
-DESCRIPTION: process.env.DESCRIPTION || "*© POWERED NOVA TECH*",
+DESCRIPTION: process.env.DESCRIPTION || "*© POWERED BY JAYDEN JAVA*",
 // add bot description    
 
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/52dotx.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/VFmjR.jpg"
+92AM-HMP6",
 // add img for alive msg
 
-LIVE_MSG: process.env.LIVE_MSG || "> Powered by *NOVA TECH*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> Powered by *JAYDEN JAVA*⚡",
 // add alive msg here 
 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
@@ -93,19 +94,19 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
-AUTO_TYPING: process.env.AUTO_TYPING || "true",
+AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 
-READ_CMD: process.env.READ_CMD || "false",
+READ_CMD: process.env.READ_CMD || "true",
 // true if want mark commands as read 
 
-DEV: process.env.DEV || "255767862457",
+DEV: process.env.DEV || "256745944178",
 // replace with your whatsapp number        
 
 ANTI_VV: process.env.ANTI_VV || "true",
